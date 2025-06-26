@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Dmitri's Copy Paste",
+  "version": "1.1",
+  "description": "Enable copy-paste and right-click in Codetantra editor iframe.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["*://*.codetantra.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Unblock Codetantra Editor",
+    "default_icon": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
